@@ -13,8 +13,8 @@ if (drive == "B"){
  }
  if (drive == "R"){
  smarti.setLEDs([30,30,0],[30,30,0]);
- smarti.setMotor(1,-0.65);
- smarti.setMotor(2,-0.65);
+ smarti.setMotor(1,-1);
+ smarti.setMotor(2,-1);
    step = 2;
  counting = true;
 
@@ -23,8 +23,8 @@ if (drive == "B"){
 
   if (drive == "SR"){
  smarti.setLEDs([30,30,0],[30,30,0]);
-  smarti.setMotor(1,-0.6);
- smarti.setMotor(2,-0.6);
+  smarti.setMotor(1,-1);
+ smarti.setMotor(2,-1);
    step = 1;
  counting = true;
 
@@ -32,21 +32,21 @@ if (drive == "B"){
  }
  if (drive == "L"){
  smarti.setLEDs([30,30,0],[30,30,0]);
- smarti.setMotor(1,0.65);
- smarti.setMotor(2,0.65);
+ smarti.setMotor(1,1);
+ smarti.setMotor(2,1);
    step = 2;
  counting = true;
  }
   if (drive == "SL"){
  smarti.setLEDs([30,30,0],[30,30,0]);
- smarti.setMotor(1,0.6);
- smarti.setMotor(2,0.6);
+ smarti.setMotor(1,1);
+ smarti.setMotor(2,1);
    step = 1;
  counting = true;
  }
  else if (drive == "F"){
  smarti.setLEDs([100,100,0],[100,100,0]);
- smarti.setMotor(1,1);
+ smarti.setMotor(1,0.7);
  smarti.setMotor(2,-1);
    step = 4;
  counting = true;
