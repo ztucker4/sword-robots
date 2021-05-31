@@ -46,7 +46,7 @@ if (drive == "B"){
  }
  else if (drive == "F"){
  smarti.setLEDs([100,100,0],[100,100,0]);
- smarti.setMotor(1,0.7);
+ smarti.setMotor(1,1);
  smarti.setMotor(2,-1);
    step = 4;
  counting = true;
