@@ -92,7 +92,7 @@
 <script src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.23.0.min.js"></script>
 <script>
 function sendDrive(direction){
-  var pubnub = new PubNub({publishKey : "pub-c-aba24fa4-dd2a-427e-be76-e13ae17ea64b", subscribeKey : "sub-c-b8825ef2-c241-11eb-8a3a-220055b20f11"});
+  var pubnub = new PubNub({publishKey : "pub-c-dd1a954c-47cc-45dc-87d8-6c4991b4cc64", subscribeKey : "sub-c-44ed37fa-d6b4-11eb-a02e-0298fc8e4944"});
     pubnub.publish({ channel : "drive", message : direction });
     console.log(direction);
   }
